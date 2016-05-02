@@ -15,6 +15,7 @@
 		9E8F12F11CD75C7600EDB389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8F12EF1CD75C7600EDB389 /* LaunchScreen.storyboard */; };
 		9E8F12FC1CD75C7600EDB389 /* CircularProgressBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8F12FB1CD75C7600EDB389 /* CircularProgressBarTests.m */; };
 		9E8F13071CD75C7700EDB389 /* CircularProgressBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8F13061CD75C7700EDB389 /* CircularProgressBarUITests.m */; };
+		9E8F13161CD75F8100EDB389 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8F13151CD75F8100EDB389 /* CircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9E8F13021CD75C7600EDB389 /* CircularProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8F13061CD75C7700EDB389 /* CircularProgressBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularProgressBarUITests.m; sourceTree = "<group>"; };
 		9E8F13081CD75C7700EDB389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8F13141CD75F8100EDB389 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		9E8F13151CD75F8100EDB389 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 				9E8F12EF1CD75C7600EDB389 /* LaunchScreen.storyboard */,
 				9E8F12F21CD75C7600EDB389 /* Info.plist */,
 				9E8F12E11CD75C7600EDB389 /* Supporting Files */,
+				9E8F13171CD75F8A00EDB389 /* CircleView */,
 			);
 			path = CircularProgressBar;
 			sourceTree = "<group>";
@@ -138,6 +142,15 @@
 				9E8F13081CD75C7700EDB389 /* Info.plist */,
 			);
 			path = CircularProgressBarUITests;
+			sourceTree = "<group>";
+		};
+		9E8F13171CD75F8A00EDB389 /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				9E8F13141CD75F8100EDB389 /* CircleView.h */,
+				9E8F13151CD75F8100EDB389 /* CircleView.m */,
+			);
+			name = CircleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8F13161CD75F8100EDB389 /* CircleView.m in Sources */,
 				9E8F12E91CD75C7600EDB389 /* ViewController.m in Sources */,
 				9E8F12E61CD75C7600EDB389 /* AppDelegate.m in Sources */,
 				9E8F12E31CD75C7600EDB389 /* main.m in Sources */,

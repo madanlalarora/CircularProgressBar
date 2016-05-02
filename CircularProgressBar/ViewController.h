@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CircleView.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) CircleView *circleView;
 
 @end
 
