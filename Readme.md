@@ -11,7 +11,7 @@ Simply drag the contents of CircleView in your project and import the header.
 ```
 CircleView *circleView = [[CircleView alloc] initWithFrame:CGRectMake(0, 50, 300, 300)];
 
-circleView.backgroundCircleColor = [UIColor grayColor]; // set only if above property is YES
+circleView.backgroundCircleColor = [UIColor grayColor]; // set only if you add a background circle
 circleView.percent = 100; // percent you need to fill up the stroke to
 circleView.timeForFullAnimation = 1; // time in seconds for percent = 100
 circleView.progressIndicatorColor = [UIColor greenColor]; // indicator color
