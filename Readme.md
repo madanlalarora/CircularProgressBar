@@ -2,7 +2,7 @@
 
 A very basic Objective-C circular progress view using CAShapeLayer.
 
-## How to use
+## How to install
 
 Simply drag the contents of CircleView in your project and import the header.
 
